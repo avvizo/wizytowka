@@ -49,7 +49,6 @@ a:hover { text-decoration: underline; }
   gap: 24px;
 }
 
-/* ---- boczny panel ---- */
 .awatar {
   position: relative;
   width: 296px;
@@ -82,7 +81,6 @@ a:hover { text-decoration: underline; }
 .bok h1 { font-size: 26px; line-height: 1.25; }
 .bio { margin-top: 8px; }
 
-/* ---- karty ---- */
 .karta {
   background: var(--tlo);
   border: 1px solid var(--linia);
@@ -111,7 +109,7 @@ a:hover { text-decoration: underline; }
 }
 .podwojne .karta { margin-bottom: 0; }
 
-/* ---- tagi ---- */
+/* badge */
 .tagi { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag {
   padding: 4px 10px;
@@ -130,13 +128,11 @@ a:hover { text-decoration: underline; }
 .tag[data-kat="jezyk"] { --akcent: #58a6ff; }
 .tag[data-kat="narz"] { --akcent: #3fb950; }
 
-/* ---- ulubione ---- */
 .ulubione { list-style: none; display: flex; flex-direction: column; gap: 10px; }
 .ulubione li { display: flex; align-items: center; gap: 10px; }
 .ulubione i { width: 24px; text-align: center; color: var(--tekst-2); }
 .ulubione small { display: block; color: var(--tekst-2); }
 
-/* ---- przyciski ---- */
 .przyciski { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
 .przycisk {
   padding: 6px 14px;
@@ -152,7 +148,6 @@ a:hover { text-decoration: underline; }
 .przycisk.glowny { background: var(--zielony); border-color: var(--zielony); color: #fff; }
 .przycisk.glowny:hover { background: var(--zielony-2); }
 
-/* ---- terminal w readme ---- */
 .terminal {
   padding: 16px;
   font: 13px/1.7 Consolas, 'Cascadia Code', monospace;
@@ -166,7 +161,6 @@ a:hover { text-decoration: underline; }
 .cytat { color: var(--komentarz); font-style: italic; }
 .wiersz { display: flex; white-space: nowrap; }
 
-/* ---- wkresy aktywności ---- */
 .wkresy-naglowek {
   display: flex;
   justify-content: space-between;
@@ -206,7 +200,7 @@ a:hover { text-decoration: underline; }
 }
 .legenda .dzien { display: inline-block; }
 
-/* ---- przełącznik motywu ---- */
+
 .motyw {
   position: fixed;
   bottom: 10px;
@@ -220,7 +214,6 @@ a:hover { text-decoration: underline; }
   cursor: pointer;
 }
 
-/* ---- responsywność ---- */
 @media (max-width: 1012px) {
   .strona { grid-template-columns: 1fr; padding: 16px; }
   .awatar { width: 120px; height: 120px; font-size: 50px; }

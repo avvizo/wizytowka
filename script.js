@@ -1,6 +1,6 @@
-const ASCII = `⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⣶⣶⣶⣾⣶⣶⣦⣄⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣶⣿⠛⠋⠉⠉⠀⠀⠈⠉⠙⣿⣷⡆⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣦⡀⠀
+const ASCII = `⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⣶⣶⣶⣾⣶⣶⣦⣄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⠀⢠⣶⣿⠛⠋⠉⠉⠀⠀⠈⠉⠙⣿⣷⡆⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⠀⠀⢀⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣿⣦⡀⠀
 ⣠⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⡿⠃⠀⠀⠀⠀⠀⠀⣰⣶⣄⠀⠀⠀⠀⠸⣏⢷⠀⠀
 ⠈⠻⢿⣿⣿⠿⠿⠿⠿⠿⠿⠟⠁⠀⠀⠀⠀⠀⠀⠀⣿⣿⠇⠀⠀⠀⠀⠀⣗⠼⠀⠀
 ⠀⠀⠀⠙⠻⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⠅
@@ -33,7 +33,7 @@ const readme = [
   ['para', 'Email', 'brtszslomski@gmail.com', 'mailto:brtszslomski@gmail.com'],
   ['para', 'Discord', 'd3f4ult_suvko'],
   ['pauza'],
-  ['cytat', '"Looking for environments that value code quality."'],
+  ['cytat', '"backend > frontend"'],
 ];
 
 function rysujReadme() {
@@ -88,7 +88,7 @@ function rysujWkresy() {
 }
 
 function przewinDoReadme() {
-  document.getElementById('readme').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  document.getElementById ('scroll').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function kopiujEmail(przycisk) {
